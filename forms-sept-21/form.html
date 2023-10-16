@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link href = style.css rel="stylesheet"/>
+</head>
+<body>
+    <form id = "htmlForm" action ="submitted.html">
+        <h1>Contact Us</h1>
+        <label for = "name"> What's your name</label>
+        <input type = "text" id = "name" autocomplete="additional-name"/>
+        <label for = "email"> What's your email address</label>
+        <input type = "email" id = "email" autocomplete="additional-name"/>
+        <textarea placeholder="what's your message?" id="textarea"></textarea>
+        <input type = "submit" id="submitButton"/>
+        <button  type  = "button" onclick="location.href = 'submitted.html'" id="otherButton"> Button</button>
+        <a href = "submitted.html" id="linkButton">Link</a>
+    </form>
+    <!-- <script>
+        const myForm = document.getElementById("htmlForm")
+        const submitFunction = (e)=>{
+            e.preventDefault()
+            window.location.href = "submitted.html"
+        }
+        myForm.addEventListener("submit", submitFunction)
+
+    </script> -->
+</body>
+</html>
