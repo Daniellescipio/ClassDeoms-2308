@@ -1,0 +1,11 @@
+#parent{
+    position: absolute;
+    left: 43%;
+    text-align: center;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}

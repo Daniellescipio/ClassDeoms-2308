@@ -1,0 +1,4 @@
+//Change text//element.textContent="desired text"
+//add a class// element.classList.add("desired class")
+//remove a class //element.classList.remove("unwanted class")
+//get Attri
